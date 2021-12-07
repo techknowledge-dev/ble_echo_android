@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/advertise_start_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:text="Advertise start" />
+
+        <Button
+            android:id="@+id/advertise_stop_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="Advertise stop" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <!--
+    <LinearLayout xmlns:android="https://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/advertise_start_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Advertise"/>
+
+        <Button
+            android:id="@+id/advertise_stop_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Discover" />
+
+    </LinearLayout>
+    -->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

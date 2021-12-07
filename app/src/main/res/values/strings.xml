@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ble_echo</string>
+    <string name="action_settings">Settings</string>
+    <string name="advatise_uuid">4db3d4ff-eda4-46e8-bd89-9a7b1f63cc83</string>
+    <string name="primary_service_uuid">43eb0d29-4188-4c84-b1e8-73231e02af95</string>
+    <string name="write_uuid">f0ab5a15-b001-4653-a248-73fd504c128f</string>
+    <string name="indicate_uuid">e0ab5a15-b003-4653-a248-73fd504c128f</string>
+    <string name="read_uuid">d0ab5a15-b002-4653-a248-73fd504c128f</string>
+
+</resources>
